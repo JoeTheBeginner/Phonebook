@@ -26,8 +26,4 @@ class Phonebook :
     def len (self) :
         return len(self.__enteries)
    
-newyork = Phonebook ()
-newyork.adder ('youssef',2323445,'marlin',348275284,'müller',425745)
-print(newyork.searcher ('marlin'))
-print(newyork.__repr__())
-print(newyork.len())
+
